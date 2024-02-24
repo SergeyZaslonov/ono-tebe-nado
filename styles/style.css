@@ -140,7 +140,7 @@ header {
   font-weight: 500;
   font-size: 22px;
   text-transform: uppercase;
-  background-color: transparent; 
+  background-color: transparent;
 }
 
 .bet-button:hover {
@@ -223,7 +223,7 @@ header {
   margin: 182px 25px 180px;
 }
 
-.about__logo {   
+.about__logo {
   display: flex;
   flex-shrink: 0;
   align-items: center;
