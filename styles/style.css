@@ -270,7 +270,7 @@ header {
 footer {
   display: grid;
   grid-template-columns: 245px 1fr 240px;
-  margin: 50px;
+  margin: 50px 50px 90px;
 }
 
 .footer__menu {
