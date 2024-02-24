@@ -159,7 +159,7 @@ header {
 }
 
 .lots__card-list {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
   gap: 25px;
   margin: 26px 0;
@@ -175,11 +175,11 @@ header {
   justify-content: space-between;
   width: 334px;
   min-height: 563px;
-  padding: 50px 40px;  
+  padding: 50px 40px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-} 
+}
 
 .card-link {
   text-decoration: none;
