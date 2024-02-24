@@ -1,8 +1,7 @@
 header {
   display: grid;
-  grid-template-columns: 460px 136px 1fr;
-  height: 105px;
-  margin: 92px 24px 96px;
+  grid-template-columns: 1fr min-content 1fr;
+  margin: 92px 24px;
 }
 
 .header__menu {
@@ -23,6 +22,10 @@ header {
   text-decoration: none;
 }
 
+.links-item_active {
+  border-bottom: none;
+}
+
 .list-item_no-marker {
   list-style: none;
 }
@@ -31,30 +34,34 @@ header {
   white-space: nowrap;
 }
 
+.header__logo {
+  width: 135px;
+}
+
 .address {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: start;
-  width: auto;
   font-size: 18px;
-  line-height: 132%;
+  line-height: 137%;
   letter-spacing: 0.012em;
-}
-
-.address_address {
-  max-width: 210px;
+  font-style: normal;
 }
 
 .header__address {
- margin-left: 190px;
+  align-items: end;
+  margin-right: 55px; 
+}
+
+.address_panel {
+  max-width: 210px;
 }
 
 .cover {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 757px;
   color: #fff;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
@@ -76,8 +83,7 @@ header {
 
 .cover__title {
   z-index: 1;
-  height: 655px;
-  padding: 163px 50px;
+  padding: 163px 50px 128px;
 }
 
 .aligned-text {
@@ -123,6 +129,7 @@ header {
   align-items: center;
   font-size: 22px;
   text-transform: uppercase;
+  padding-bottom: 51px;
 }
 
 .cover__description-text {
@@ -135,8 +142,8 @@ header {
   width: 256px;
   height: 51px;
   margin-right: 51px;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid currentColor;
+  color: currentColor;
   font-weight: 500;
   font-size: 22px;
   text-transform: uppercase;
@@ -269,7 +276,7 @@ header {
 
 footer {
   display: grid;
-  grid-template-columns: 245px 1fr 240px;
+  grid-template-columns: 1fr min-content 1fr;
   margin: 50px 50px 90px;
 }
 
@@ -285,11 +292,11 @@ footer {
 .footer__social-list {
   display: flex;
   flex-direction: row;
+  justify-content: end;
   gap: 48px;
   list-style: none;
 }
 
 .footer__social-list-item {
   width: 48px;
-  height: 48px;
 }

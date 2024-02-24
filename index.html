@@ -14,7 +14,7 @@
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="list-item_no-marker">
-            <a>главная</a>
+            <a class="links-item links-item_active">главная </a>
           </li>
           <li>
             <a href="#lots" class="links-item">посмотреть лоты</a>
@@ -34,15 +34,17 @@
         </a>
       </div>
       <address class="address	header__address">
-        <a href="tel:+99995555555" class="links-item text_nowrap">
+        <div class="address_panel">
+          <a href="tel:+99995555555" class="links-item text_nowrap">
           +9 999 555 5555
-        </a>
-        <a href="mailto:info@sobaka.ge" class="links-item text_nowrap">
-          info@sobaka.ge
-        </a>
-        <p class="address_address">
-          наб. Принсенграхт 263-265, Амстердам
-        </p>
+          </a>
+          <a href="mailto:info@sobaka.ge" class="links-item text_nowrap">
+            info@sobaka.ge
+          </a>
+          <p>
+            наб. Принсенграхт 263-265, Амстердам
+          </p>
+        </div>
       </address> 
     </header>
     <main>
@@ -66,7 +68,7 @@
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">Сделать ставку</button>
+          <button class="bet-button" type="button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots" id="lots">
@@ -185,20 +187,23 @@
     </main>
     <footer>
       <address class="address">
-        <a href="tel:+99995555555" class="links-item text_nowrap">
+        <div class="address_panel">
+          <a href="tel:+99995555555" class="links-item text_nowrap">
           +9 999 555 5555
-        </a>
-        <a href="mailto:info@sobaka.ge" class="links-item text_nowrap">
-          info@sobaka.ge
-        </a>
-        <p class="address_address">
-          наб. Принсенграхт 263-265, Амстердам
+          </a>
+          <a href="mailto:info@sobaka.ge" class="links-item text_nowrap">
+            info@sobaka.ge
+          </a>
+          <p>
+            наб. Принсенграхт 263-265, Амстердам
+          </p>
+        </div>
         </p>
       </address> 
       <nav class="footer__menu">
-        <ul class="footer__menu-list">
+        <ul class="footer__menu-list text_nowrap">
           <li class="footer__menu-link_active">
-            <a>главная</a>
+            <a class="links-item links-item_active">главная </a>
           </li>
           <li>
             <a href="#lots" class="links-item">посмотреть лоты</a>
@@ -208,7 +213,7 @@
           </li>
         </ul>
       </nav>
-      <nav>
+      <div>
         <ul class="footer__social-list">
           <li class="footer__social-list-item">
             <a href="https://www.youtube.com/" target="_blank">
@@ -226,7 +231,7 @@
             </a>
           </li>
         </ul>
-      </nav>
+      </div>
     </footer>
   </body>
 </html>
