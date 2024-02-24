@@ -47,7 +47,7 @@ header {
 }
 
 .header__address {
- margin-left: 190px; 
+ margin-left: 190px;
 }
 
 .cover {
@@ -89,7 +89,7 @@ header {
   text-transform: uppercase;
 }
 
-.letter-spacing-extended{
+.letter-spacing-extended {
   letter-spacing: 0.6em;
 }
 
@@ -140,7 +140,7 @@ header {
   font-weight: 500;
   font-size: 22px;
   text-transform: uppercase;
-  background-color: transparent;  
+  background-color: transparent; 
 }
 
 .bet-button:hover {
@@ -148,7 +148,7 @@ header {
 }
 
 .lots {
-  margin: 180px 24px 0px;  
+  margin: 180px 24px 0px;
 }
 
 .lots__heading {
@@ -223,7 +223,7 @@ header {
   margin: 182px 25px 180px;
 }
 
-.about__logo { 
+.about__logo {   
   display: flex;
   flex-shrink: 0;
   align-items: center;
@@ -259,8 +259,7 @@ header {
   letter-spacing: 0.006em;
 }
 
-.about__text:last-child
-{
+.about__text:last-child {
   margin-bottom: 0;
 }
 
