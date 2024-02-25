@@ -110,11 +110,11 @@ header {
   text-align: right;
 }
 
-.letter-spacing_0_37 {
+.letter-spacing-reduced {
   letter-spacing: 0.37em;
 }
 
-.letter-spacing_0_035 {
+.letter-spacing_min {
   letter-spacing: 0.035em;
 }
 
