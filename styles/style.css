@@ -114,10 +114,6 @@ header {
   letter-spacing: 0.37em;
 }
 
-.letter-spacing_little {
-  letter-spacing: 0.035em;
-}
-
 .no-letter-spacing {
   letter-spacing: 0em;
 }
