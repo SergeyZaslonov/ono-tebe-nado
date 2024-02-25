@@ -110,11 +110,11 @@ header {
   text-align: right;
 }
 
-.letter-spacing_n {
+.letter-spacing_0_37 {
   letter-spacing: 0.37em;
 }
 
-.letter-spacing_d {
+.letter-spacing_0_035 {
   letter-spacing: 0.035em;
 }
 
@@ -144,6 +144,7 @@ header {
   margin-right: 51px;
   border: 1px solid currentColor;
   color: currentColor;
+  font-family: Raleway, sans-serif;
   font-weight: 500;
   font-size: 22px;
   text-transform: uppercase;
@@ -238,7 +239,7 @@ header {
   height: 240px;
   margin-top: 2px;
   margin-left: 47px;
-  border-radius: 120px;
+  border-radius: 50%;
   background-color: black;
 }
 
